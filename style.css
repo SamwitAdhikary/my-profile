@@ -148,6 +148,7 @@ header.sticky ul li a
 
 .contentBx h3
 {
+  margin-top: 25%;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -155,6 +156,11 @@ header.sticky ul li a
 .w50
 {
   min-width: 50%;
+}
+
+.w50 .img
+{
+  margin-left: 25%
 }
 
 img
@@ -448,7 +454,7 @@ img
   }
   .banner h2
   {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .banner h3
   {
@@ -467,15 +473,26 @@ img
   }
   .contentBx h3
   {
+    margin-top: 0;
     font-size: 20px;
+    justify-content: center;
+    margin-left: 20px;
   }
   .content
   {
     flex-direction: column;
   }
+  .contentBx p
+  {
+    margin-left: 11px;
+  }
   .w50
   {
     margin-bottom: 20px;
+  }
+  .w50 .img
+  {
+    margin-left: 0;
   }
   .services .content .servicesBx
   {
