@@ -380,6 +380,12 @@ img
   margin-bottom: 0px;
 }
 
+.contactInfoBx a
+{
+  text-decoration: none;
+  color: #fff;
+}
+
 .copyright
 {
   background: #000;
